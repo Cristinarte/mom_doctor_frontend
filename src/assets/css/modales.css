@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------
+# Modal
+--------------------------------------------------------------*/
+
+/* Estilos para el encabezado del modal */
+.modal-header {
+  background-color: #1977cc; /* Color de fondo azul para el encabezado */
+  color: white; /* El texto del encabezado es blanco */
+  border-top-left-radius: 10px; /* Bordes redondeados en la esquina superior izquierda */
+  border-top-right-radius: 10px; /* Bordes redondeados en la esquina superior derecha */
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el botón de cerrar en el encabezado */
+.modal-header .btn-close {
+  filter: invert(1); /* Invierte los colores para que el botón sea más visible (por ejemplo, blanco sobre fondo azul) */
+}
+
+/* Estilos para el cuerpo del modal */
+.modal-body {
+  background-color: #f7f7f7; /* Fondo gris claro para el cuerpo del modal */
+  padding: 20px; /* Espaciado interior de 20px alrededor del contenido */
+  color: #333; /* Color de texto oscuro para mayor legibilidad */
+}
+
+/* Estilos para el botón principal en el cuerpo del modal */
+.modal-nav .btn-primary {
+  background-color: #1977cc; /* Fondo azul para el botón */
+  border: none; /* Elimina el borde del botón */
+  color: white; /* Texto del botón en blanco */
+}
