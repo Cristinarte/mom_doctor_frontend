@@ -119,7 +119,7 @@ export const VolantesList = ({ userId }) => {
                 <td>
                   {/* Si el volante tiene archivo, mostramos un enlace para verlo */}
                   {volante.file_path ? (
-                    <a href={`https://lmom-doctor-backend-docker.onrender.com/storage/${volante.file_path}`} target="_blank" rel="noopener noreferrer">
+                    <a href={`https://mom-doctor-backend-docker.onrender.com/storage/${volante.file_path}`} target="_blank" rel="noopener noreferrer">
                       Ver archivo
                     </a>
                   ) : (
