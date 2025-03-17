@@ -148,7 +148,7 @@ export const VolantesList = ({ userId }) => {
             <p className="card-text">
               <strong>Volante:</strong>{" "}
               {volante.file_path ? (
-                <a href={volante.file_path} target="_blank" rel="noopener noreferrer">
+                <a href={`https://mom-doctor-backend-docker.onrender.com/storage/${volante.file_path}`} target="_blank" rel="noopener noreferrer">
                   Ver archivo
                 </a>
               ) : (
