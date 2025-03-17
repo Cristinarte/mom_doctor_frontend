@@ -8,6 +8,9 @@
   1. El contenido descriptivo (texto e íconos).
   2. El video y el botón de reproducción pulsante.
 */
+section{
+  margin-bottom: 60px;
+}
 
 /* Estilo para el título en la sección About */
 .about .content h3 {

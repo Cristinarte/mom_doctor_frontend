@@ -16,6 +16,7 @@
   justify-content: center; /* Alinea los elementos al centro horizontalmente */
   position: relative; /* Permite colocar elementos dentro de esta sección en relación a ella */
   overflow: hidden; /* Asegura que el contenido no se desborde fuera de los límites de la sección */
+  background-color: #f1f7fc;
 }
 
 /* Estilo para el contenedor dentro de la hero section */
